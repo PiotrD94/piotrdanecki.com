@@ -76,9 +76,9 @@ hr {
 .navigation {
     background-color: var(--darker-background-color);
     color: white;
-    border: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
     padding: 1rem;
-    border-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 
 }
 
@@ -137,7 +137,9 @@ hr {
 
 /* footer */
 .footer {
-    width: auto;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
     border-bottom: auto;
     text-align: center;
     background-color: var(--darker-background-color);
