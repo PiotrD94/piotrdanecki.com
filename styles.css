@@ -83,7 +83,7 @@ hr {
 .navigation {
     position: fixed;
     top: 0;
-    width: 98%;
+    width: 100%;
     background-color: var(--darker-background-color);
     color: white;
     border-bottom: 3px solid var(--primary-color);
@@ -94,8 +94,8 @@ hr {
 
 .navigation .link {
     color: var(--primary-color);
-    float: right;
-}
+       padding-right: 2.9rem;
+       float: right;
 
 .navigation .nav-brand {
     font-weight: bold;
