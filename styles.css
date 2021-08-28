@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #ff3200;
+    --background-color: #312F2B;
+    --darker-background-color: #272524;
+    --redish: #9d0208
+}
+
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    margin: 0px;
+
+
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/** container **/
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    text-align: center;
+    margin: auto
+}
+
+/** Links **/
+
+.link {
+    text-decoration: none;
+    padding: 0.4rem 0.7rem;
+    color: var(--primary-color);
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    
+    color: white;
+    border-radius: 0.7rem
+}
+
+.secondary-link {
+    
+    color: var(--primary-color);
+    border-radius: 0.7rem;
+    border: 1px solid var(--primary-color);
+    ;
+}
+
+/** list **/
+
+.list {
+    padding: 0rem 0.5rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+    background-color: var(--darker-background-color);
+    color: white;
+    border: 3px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.navigation .link {
+    color: var(--primary-color);
+    float: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+
+.navigation .nav-pills {
+    color: white;
+}
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero-img {
+    width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero-heading {
+    padding-top: 2rem;
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/** section **/
+
+
+.section h1 {
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.ow {
+    background-size: 2rem;
+    background-color: var(--darker-background-color);
+    
+}
+
+/* footer */
+.footer {
+    width: auto;
+    border-bottom: auto;
+    text-align: center;
+    background-color: var(--darker-background-color);
+    color: white;
+    border-top: 3px solid var(--primary-color);
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
