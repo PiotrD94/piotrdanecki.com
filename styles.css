@@ -62,7 +62,13 @@ hr {
     border: 1px solid var(--primary-color);
     ;
 }
-
+/* small img */
+.small-img {
+    width: 175px;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+}
 /** list **/
 
 .list {
