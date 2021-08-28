@@ -9,10 +9,14 @@
 
 
 body {
+    height: 100%;
+    width: 100%;
+    display: table;
     background-color: var(--background-color);
     font-family: 'Assistant', sans-serif;
     color: white;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -20,7 +24,10 @@ body {
 hr {
     margin: 2rem 0rem;
 }
-
+/* .clear { 
+    clear: top, bottom; 
+    height: 12;
+ } */
 /** container **/
 
 .container {
@@ -74,6 +81,9 @@ hr {
 /** navigation **/
 
 .navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: var(--darker-background-color);
     color: white;
     border-bottom: 3px solid var(--primary-color);
@@ -137,14 +147,45 @@ hr {
 
 /* footer */
 .footer {
+    /* background-color: grey;
+    display: table-row;
+    height: 0; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
     text-align: center;
     background-color: var(--darker-background-color);
     color: white;
     border-top: 3px solid var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     border-top-right-radius: 1rem;
 }
 
 .footer ul {
     padding-inline-start: 0px;
 }
+
+ #container {
+    min-height:100%;
+    position:relative;
+ }
+ #header {
+    background:#ff0;
+    padding:10px;
+ }
+ #body {
+    padding-top:130px;
+    padding-bottom:45px;   /* Height of the footer */
+ }
+ #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:45px;   /* Height of the footer */
+    background:#6cf;
+ }
+ /* IE 6 and down:
+ #container {
+    height:100%;
+ }
