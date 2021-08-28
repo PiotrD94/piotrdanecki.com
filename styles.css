@@ -95,6 +95,7 @@ hr {
 .navigation .link {
     color: var(--primary-color);
     float: right;
+    padding-right: 30px;
 }
 
 .navigation .nav-brand {
