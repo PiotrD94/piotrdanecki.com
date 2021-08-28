@@ -83,11 +83,11 @@ hr {
 .navigation {
     position: fixed;
     top: 0;
-    width: 99%;
+    width: 98%;
     background-color: var(--darker-background-color);
     color: white;
     border-bottom: 3px solid var(--primary-color);
-    padding: 1rem;
+    padding: 1rem 1rem;
     border-bottom-right-radius: 1rem;
 
 }
