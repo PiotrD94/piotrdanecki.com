@@ -87,15 +87,15 @@ hr {
     background-color: var(--darker-background-color);
     color: white;
     border-bottom: 3px solid var(--primary-color);
-    padding: 1rem 1rem;
+    padding: 1rem;
     border-bottom-right-radius: 1rem;
 
 }
 
 .navigation .link {
     color: var(--primary-color);
-       padding-right: 2.9rem;
-       float: right;
+    float: right;
+}
 
 .navigation .nav-brand {
     font-weight: bold;
