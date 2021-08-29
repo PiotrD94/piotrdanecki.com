@@ -24,10 +24,7 @@ body {
 hr {
     margin: 2rem 0rem;
 }
-/* .clear { 
-    clear: top, bottom; 
-    height: 12;
- } */
+
 /** container **/
 
 .container {
@@ -114,7 +111,6 @@ hr {
 }
 
 
-
 .navigation .nav-pills {
     color: white;
 }
@@ -154,9 +150,7 @@ hr {
 
 /* footer */
 .footer {
-    /* background-color: grey;
-    display: table-row;
-    height: 0; */
+    
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -172,7 +166,7 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-
+/* to keep footer at the bottom, and navigation at the top */
  #container {
     min-height:100%;
     position:relative;
