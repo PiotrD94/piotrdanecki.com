@@ -44,7 +44,10 @@ hr {
     padding: 0.4rem 0.7rem;
     color: var(--primary-color);
 }
-
+.external-link {
+    color: var(--primary-color);
+    padding: 0.2rem;
+}
 .primary-link {
     background-color: var(--primary-color);
     
