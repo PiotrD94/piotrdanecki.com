@@ -41,6 +41,8 @@ hr {
 
 .link {
     text-decoration: none;
+    display: inline-block;
+    border-width: 2rem;
     padding: 0.4rem 0.7rem;
     color: var(--primary-color);
 }

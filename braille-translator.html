@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/styles.css" rel="stylesheet">
+    <title>Translate to banana</title>
+    <style>
+        textarea {
+            border: 1px solid black;
+            width: 70%;
+            height: 4rem;
+            display: block;
+            margin: auto;
+
+        }
+
+        #outputarea-translate {
+            border: 1px solid rgb(0, 0, 0);
+            width: 70%;
+            height: fit-content;
+            min-height: 5rem;
+            display: block;
+            margin: auto;
+            background-color: rgb(253, 253, 253);
+            color: rgb(8, 8, 8);
+
+        }
+
+        #button-translate {
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Piotr Danecki</div>
+        <ul calss="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/about-me.html">About me</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline"><a class="link link-active" href="/index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div id="body">
+        <div class="container container-center">
+        <section class="section ow">
+            <h1> Did you know?
+            </h1>
+            <p> Braille was based on a tactile military code called night writing, developed by Charles Barbier in
+                response to Napoleon's demand for a means for soldiers to communicate silently at night and without
+                a light source. Also Braille was the first writing system with binary encoding!</p>
+        </section>
+    </div>
+        <h2 class="container-center">Try Braille translator!</h2>
+        <textarea placeholder="Text input" id="inputarea-translate"></textarea>
+        <h2 class="container-center">Click translate button to translate!</h2>
+        <button id="button-translate">Translate</button>
+
+        <div id="outputarea-translate"> </div>
+        <div class="container container-center">
+
+
+        </div>
+        <div id="div-spacer">
+            <footer class="footer">
+                <div class="footer-header">You can also visit me on social media:</div>
+                <ul class="social-links">
+                    <li class="list-item-inline"><a class="link primary-link " href="https://www.linkedin.com/in/piotr-danecki
+                " target="_blank">Linkedin</a></li>
+                    <li class="list-item-inline"><a class="link secondary-link "
+                            href="https://www.instagram.com/pierdecooks/" target="_blank">Instagram</a></li>
+                    <li class="list-item-inline"><a class="link primary-link " href="https://github.com/PiotrD94"
+                            target="_blank">GitHub</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="/translate.js">
+            type = "text/javascript"
+        </script>
+</body>
+
+</html>
